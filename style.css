@@ -2,3 +2,51 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.navBar {
+background-color:#f2f2f2;
+overflow:hidden;
+}
+
+.navBar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navBar a:hover {
+  background-color:lightgrey;
+  color: #333;
+}
+.navBar a.active {
+  background-color:lightcoral;
+  color:whitesmoke;
+}
+.navBar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navBar a:not(:first-child) {display: none;}
+  .navBar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navBar.responsive {position: relative;}
+  .navBar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
