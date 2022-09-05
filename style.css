@@ -2,3 +2,67 @@ img {
   width:45px;
   height:auto;
 }
+
+.leaderboard {
+  width:50%;
+ margin:auto;
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+.header1 {
+  text-align:center;
+}
+
+.table {
+  width:100%;
+	height: 50vh; 
+  display:flex;
+  flex-direction: column;
+  margin:auto;
+  background:grey;
+}
+
+.c1{
+  margin:auto;
+  width:95%;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:space-evenly;
+  padding:10px;
+}
+
+.d1{
+  text-align:center;
+  width:25vw;
+  height:20vh;
+ min-width:300px;
+  min-height:200px;
+  border-radius:25px;
+  border:1px solid black;
+  margin:15px;
+}
+
+.houseImg {
+  height:85%;
+  width:100%;
+  border-radius:23px 23px 0px 0px;
+}
+
+.houseName{
+  text-align:center;
+  padding:2px;
+  font-family: 'Inter', sans-serif;
+  height:15%;
+  width:100%;
+  background:darkslategray;
+  color:lightgray;
+  border-radius:0px 0px 23px 23px;
+}
+
+.houseName:hover {
+  color:#ffffff;
+}
