@@ -1,4 +1,4 @@
-img {
+.navImg {
   width:45px;
   height:auto;
 }
@@ -6,10 +6,13 @@ img {
 .leaderboard {
   width:50%;
  margin:auto;
+
 }
 
 .pageTitle {
   text-align: center;
+  font-family: 'Inter', sans-serif;
+  padding:50px;
 }
 
 .header1 {
@@ -23,6 +26,7 @@ img {
   flex-direction: column;
   margin:auto;
   background:grey;
+  border-radius:25px;
 }
 
 .c1{
@@ -65,4 +69,12 @@ img {
 
 .houseName:hover {
   color:#ffffff;
+}
+
+a {
+  text-decoration:none;
+}
+
+img{
+  width:100px;
 }
