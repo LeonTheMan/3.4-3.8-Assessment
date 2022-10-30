@@ -30,11 +30,21 @@
   flex-direction: column;
   margin:auto;
   background:grey;
-  border-radius:25px;
   padding:5px;
   margin-bottom:10px;
 }
 
+button{
+  background:none;
+  border:none;
+}
+
+.link{
+  background: none;
+  color: #069;
+  text-decoration: underline;
+  padding:0;
+}
 
 /* Housepage Menu CSS */
 
@@ -114,6 +124,17 @@ a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), white), url("orongorongobanner.jpeg"); 
 }
 
+.pukeariki{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), white), url("pukearikibanner.jpeg"); 
+}
+
+.pukeatua{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), white), url("pukeatuabanner.jpeg"); 
+}
+
+.tararua{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), white), url("tararuabanner.jpeg"); 
+}
 
 .hero-text {
   padding-top:25vh;
@@ -171,6 +192,8 @@ figure {
     padding: 5px;
 }
 
+
+/* changes for mobile */
 
 @media (max-width:900px){
   .c2{
