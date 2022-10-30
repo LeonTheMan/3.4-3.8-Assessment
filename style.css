@@ -3,14 +3,12 @@
   height:auto;
 }
 
-/* live leaderboard html */
+/* current leaderboard container*/
 
 .leaderboard {
-  width:50%;
+  width:60%;
   margin:auto;
   min-width:600px;
-  min-height:300px;
-  
 }
 
 .pageTitle {
@@ -23,12 +21,57 @@
   text-align:center;
 }
 
-table, th, td {
-  border: 1px solid;
+/******
+CURRENT LEADERBOARD TABLE CSS
+******/
+.chart {
+  width:100%;
+  border:2px solid darkslategray;
+  background:#f5f5f5;
+  margin:auto;
+  padding:10px 10px 10px 10px;
+  display:flex;
+  flex-direction: column-reverse;
 }
 
-table {
-  width:100%;
+.bar{
+  height:6vh;
+  background-color: #f0f0f0;
+  margin:10px 10px 10px 0px;
+  border-radius:0px 4vh 4vh 0px;
+  border: 2px solid gray;
+  border-left-width:0px;
+  font-family: 'Inter', sans-serif;
+  padding:1vh;
+}
+
+.points{
+  display:inline;
+  float:right;
+}
+
+#pukeatuaBar{
+  background-color: orange;
+}
+
+#pukearikiBar{
+  background-color: #A865C9;
+}
+
+#tararuaBar{
+  background-color: white;
+}
+
+#orongorongoBar{
+  background-color: pink;
+}
+
+#maitarangiBar{
+  background-color: yellow;
+}
+
+#remutakaBar{
+  background-color:green;
 }
 
 /* lightbox custom css*/
@@ -206,7 +249,7 @@ figure {
   .houseCaptain:{
     width:200px;
   }
-
+  
 }
 @media (max-width:600px){
   .c1 {
@@ -218,6 +261,10 @@ figure {
   .hero-text{
     padding-top:15vh;
     
+  }
+  .leaderboard{
+    width:100%;
+    min-width:50px;
   }
 }
 
