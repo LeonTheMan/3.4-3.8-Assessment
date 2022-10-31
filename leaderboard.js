@@ -1,9 +1,9 @@
 function setup() {
 }
 
-var houseArray = [{name: 'maitarangi', points: 420}, {name: 'pukeatua', points: 563},
-                  {name: 'orongorongo', points: 357}, {name: 'tararua', points: 474},
-                  {name: 'remutaka', points: 399}, {name: 'pukeariki', points: 360},]
+var houseArray = [{name: 'maitarangi', points: 460}, {name: 'pukeatua', points: 500},
+                  {name: 'orongorongo', points: 457}, {name: 'tararua', points: 674},
+                  {name: 'remutaka', points: 399}, {name: 'pukeariki', points: 400},]
 
 
 function leaderboard() {

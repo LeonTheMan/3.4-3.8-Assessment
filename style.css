@@ -3,6 +3,11 @@
   height:auto;
 }
 
+/* home page */
+
+.homepage{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), white), url("images/homepagebanner.jpeg");
+}
 /* current leaderboard container*/
 
 .leaderboard {
@@ -26,7 +31,7 @@ CURRENT LEADERBOARD TABLE CSS
 ******/
 .chart {
   width:100%;
-  border:2px solid darkslategray;
+  border:0px solid darkslategray;
   background:#f5f5f5;
   margin:auto;
   padding:10px 10px 10px 10px;
@@ -39,11 +44,24 @@ CURRENT LEADERBOARD TABLE CSS
   background-color: #f0f0f0;
   margin:10px 10px 10px 0px;
   border-radius:0px 4vh 4vh 0px;
-  border: 2px solid gray;
+  border: 1px solid gray;
   border-left-width:0px;
   font-family: 'Inter', sans-serif;
-  padding:1vh;
+  padding:1.3%;
 }
+
+/*
+@keyframes animate {
+  0%{
+    left: -500px;
+    opacity: 0;
+  }
+  100%{
+    left: 0;
+    opacity: 1;
+  }
+}
+*/
 
 .points{
   display:inline;
@@ -235,6 +253,50 @@ figure {
     padding: 5px;
 }
 
+/* All-time leaderboard table css  */
+
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.ul1{
+  padding-left:0px;
+  margin-left:0px
+}
+
+.li1 {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.table-header {
+    background-color: #95A5A6;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+.col-1 {
+    flex-basis: 20%;
+}
+.col-2 {
+    flex-basis: 70%;
+}
+.col-3 {
+    flex-basis: 10%;
+}
+
+
 
 /* changes for mobile */
 
@@ -249,8 +311,8 @@ figure {
   .houseCaptain:{
     width:200px;
   }
-  
 }
+
 @media (max-width:600px){
   .c1 {
     width:100%;
