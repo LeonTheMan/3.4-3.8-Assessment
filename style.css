@@ -89,7 +89,7 @@ CURRENT LEADERBOARD TABLE CSS
 }
 
 #remutakaBar{
-  background-color:green;
+  background-color:#01713D;
 }
 
 /* lightbox custom css*/
@@ -320,8 +320,8 @@ figure {
   .houseInfo{
     width:100%;
   }
-  .houseCaptain:{
-    width:200px;
+  .houseCaptain{
+    width:30vw;
   }
   .link {
     margin-left:10px;
